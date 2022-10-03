@@ -1,0 +1,82 @@
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next,
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous {
+	background: transparent !important;
+    display: inline-block;
+    margin-right: 40px;
+}
+.paginate_button.disabled {
+    cursor: not-allowed !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.next:hover:not(.disabled),
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover:not(.disabled) {
+    color: #0184ff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    border: none;
+	border-radius: 6px;
+	padding-top: 14px;
+	width: 39px;
+    height: 38px;
+    font-size: 17px;
+	text-align: center;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 0.71;
+	letter-spacing: 0.14px;
+    color: #adb0c1 !important;
+    cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover:not(.previous):not(.next) {
+    color: #fff !important;
+    background: #0184ff;
+    text-align: center;
+}
+
+.fa.fa-search {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+/* Select Entries Menu css */
+
+select {
+    width: 210px;
+    font-weight: 400;
+    color: #a6abc2 !important;
+    background-color: transparent;
+    border: none !important;
+    padding: .600rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.dataTables_length label {
+    margin: 0;
+}
